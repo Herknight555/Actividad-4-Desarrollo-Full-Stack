@@ -1,0 +1,114 @@
+/* Contenedor principal */
+.container {
+  width: 100%;
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 50px 45px;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+}
+
+/* Títulos */
+h2 {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 14px 18px;
+  margin-bottom: 18px;
+  border: 1.5px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  outline: none;
+  transition: all 0.3s;
+}
+
+input:focus {
+  border-color: #ff0000;
+}
+
+input::placeholder {
+  color: #999999;
+}
+
+/* Botones */
+button {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 14px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-family: 'Inter', sans-serif;
+}
+
+button:hover {
+  background-color: #ff0000;
+}
+
+/* Links */
+a {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Mensajes */
+p {
+  font-size: 14px;
+  margin-top: 24px;
+  text-align: center;
+  color: #666666;
+  font-weight: 400;
+}
+
+/* Lista de canciones */
+ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+li {
+  padding: 16px;
+  margin-bottom: 12px;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+li button {
+  width: auto;
+  padding: 8px 16px;
+  margin: 0;
+  font-size: 12px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+li button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
